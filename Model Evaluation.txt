@@ -1,0 +1,32 @@
+Confusion Matrix:
+[[  673     0     0     0     0     0     4     0     0     0]
+ [    0   583     0     0     0     0     0     0     0     0]
+ [    0     0  4064    20     5     0     0     0     0     0]
+ [   16     0     0 11114     0     1     1     0     0     0]
+ [    0     0     0     1  6055     0     6     0     0     0]
+ [    1     0     0    19     6 18843     1     1     0     0]
+ [   20     0     0     0     0     0 36980     0     0     0]
+ [    0     0     0     0     0     0     0  3496     0     0]
+ [    0     0     0     0     0     0     0     0   378     0]
+ [    0     0     2     8     2     0     5     0     5    22]]
+
+Classification Report:
+                precision    recall  f1-score   support
+
+      Analysis       0.95      0.99      0.97       677
+      Backdoor       1.00      1.00      1.00       583
+           DoS       1.00      0.99      1.00      4089
+      Exploits       1.00      1.00      1.00     11132
+       Fuzzers       1.00      1.00      1.00      6062
+       Generic       1.00      1.00      1.00     18871
+        Normal       1.00      1.00      1.00     37000
+Reconnaissance       1.00      1.00      1.00      3496
+     Shellcode       0.99      1.00      0.99       378
+         Worms       1.00      0.50      0.67        44
+
+      accuracy                           1.00     82332
+     macro avg       0.99      0.95      0.96     82332
+  weighted avg       1.00      1.00      1.00     82332
+
+
+Average Cross-Validated Accuracy: 0.9985 ± 0.0007
