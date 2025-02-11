@@ -20,3 +20,6 @@ This project also explores ethical concerns regarding data protection, fairness,
 Future Work
 Improving detection of rare attack types through data balancing techniques.
 Enhancing model robustness with real-world cybersecurity datasets.
+
+Training data - UNSW-NB15 Dataset
+Moustafa, N. & Slay, J., 2015. UNSW-NB15: a comprehensive data set for network intrusion detection (UNSW-NB15 network data set). DOI: 10.1109/MilCIS.2015.7348942.
